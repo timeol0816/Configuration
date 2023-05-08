@@ -1,0 +1,19 @@
+spring:
+  database:
+    url: jdbc:mysql://localhost:3306/configuration?characterEncoding=UTF-8&serverTimezone=UTC
+    username: cos
+    password: cos1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      auto-commit: true
+      pool-size: 2
+      max-life-time: 1800000
+      idle-timeout: 30000
+      leak-detection-threshold: 30000
+      validation-timeout: 1500
+      
+      
+      
+      
+      
+      
